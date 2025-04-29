@@ -33,7 +33,7 @@ public class StepDefinitions extends Utils {
 	ResponseSpecification resSpec;
 	
 	public StepDefinitions() throws IOException { 
-		reqSpec = given().spec(requestSpecification()).header("x-api-key","reqres-free-v1");
+		reqSpec = given().spec(requestSpecification());
 		resSpec = new ResponseSpecBuilder().expectStatusCode(201).expectContentType(ContentType.JSON).build();
 	} 
  

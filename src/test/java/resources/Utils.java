@@ -16,12 +16,12 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import pojo.User;
 
-public class Utils { 
+public class Utils {
 
 	static RequestSpecification reqSpec;
 
 	public RequestSpecification requestSpecification() throws IOException {
-		if (reqSpec == null) { 
+		if (reqSpec == null) {
 
 			String s = new SimpleDateFormat("ddMMyyyyhhmmss").format(new Date());
 			PrintStream stream = new PrintStream(
@@ -29,10 +29,12 @@ public class Utils {
 
 			reqSpec = new RequestSpecBuilder().setBaseUri(getGlobalValue("url"))
 					.addFilter(RequestLoggingFilter.logRequestTo(stream))
-					.addFilter(ResponseLoggingFilter.logResponseTo(stream)).setContentType(ContentType.JSON).build();
+					.addFilter(ResponseLoggingFilter.logResponseTo(stream)).setContentType(ContentType.JSON)
+					.addHeader("x-api-key", "reqres-free-v1").build();
+
 			return reqSpec;
 		}
- 
+
 		return reqSpec;
 	}
 
