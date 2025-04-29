@@ -1,0 +1,180 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=reqres-free-v1
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Sundar",
+    "job": "Tester"
+}
+HTTP/1.1 201 Created
+Date: Tue, 29 Apr 2025 12:06:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+Server: cloudflare
+Cf-Ray: 937eac854c2b79f4-HYD
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1745928392&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=AL7SQynDfrN5wy9t1dQUtN9H6BTTWmZSY9ZN26tpDIU%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1745928392&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=AL7SQynDfrN5wy9t1dQUtN9H6BTTWmZSY9ZN26tpDIU%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Ratelimit-Policy: 100;w=60
+Ratelimit-Limit: 100
+Ratelimit-Remaining: 98
+Ratelimit-Reset: 60
+Etag: W/"52-WyYo0DGo2YCZONRd26AMbfRmvOI"
+Via: 1.1 vegur
+Cf-Cache-Status: DYNAMIC
+server-timing: cfL4;desc="?proto=TCP&rtt=80979&min_rtt=79909&rtt_var=32107&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3109&recv_bytes=880&delivery_rate=46454&cwnd=252&unsent_bytes=0&cid=2b85d8533988ccea&ts=923&x=0"
+
+{
+    "name": "Sundar",
+    "job": "Tester",
+    "id": "289",
+    "createdAt": "2025-04-29T12:06:32.994Z"
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=reqres-free-v1
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 29 Apr 2025 12:06:35 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 937eac96699579e7-HYD
+Server: cloudflare
+Content-Encoding: gzip
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1745926117&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=8k0MbvnBavKBjbNsmQefTGiLbsa0Yallfw%2FTA82yRbQ%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1745926117&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=8k0MbvnBavKBjbNsmQefTGiLbsa0Yallfw%2FTA82yRbQ%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Ratelimit-Policy: 100;w=60
+Ratelimit-Limit: 100
+Ratelimit-Remaining: 98
+Ratelimit-Reset: 60
+Etag: W/"152-ApQgGHL6RKwaebFlrPCYPBO1xHg"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+Cf-Cache-Status: HIT
+Age: 2278
+Vary: Accept-Encoding
+server-timing: cfL4;desc="?proto=TCP&rtt=55448&min_rtt=54999&rtt_var=21523&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3109&recv_bytes=829&delivery_rate=70146&cwnd=252&unsent_bytes=0&cid=0e533dbd16dfd847&ts=153&x=0"
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=reqres-free-v1
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
+HTTP/1.1 200 OK
+Date: Tue, 29 Apr 2025 12:06:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Cf-Ray: 937eac994e6a79e9-HYD
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1745928396&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=AybzP3n1h1NeQM%2F38qiOS7%2FRmYonPfaqDnb%2B5kbJj6c%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1745928396&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=AybzP3n1h1NeQM%2F38qiOS7%2FRmYonPfaqDnb%2B5kbJj6c%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Ratelimit-Policy: 100;w=60
+Ratelimit-Limit: 100
+Ratelimit-Remaining: 96
+Ratelimit-Reset: 57
+Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via: 1.1 vegur
+Cf-Cache-Status: DYNAMIC
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=74187&min_rtt=68085&rtt_var=29890&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=902&delivery_rate=60365&cwnd=252&unsent_bytes=0&cid=e654964557f8e305&ts=560&x=0"
+
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=reqres-free-v1
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+HTTP/1.1 200 OK
+Date: Tue, 29 Apr 2025 12:06:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Cf-Ray: 937eac9e7d2479f2-HYD
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1745928396&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=AybzP3n1h1NeQM%2F38qiOS7%2FRmYonPfaqDnb%2B5kbJj6c%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1745928396&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=AybzP3n1h1NeQM%2F38qiOS7%2FRmYonPfaqDnb%2B5kbJj6c%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Ratelimit-Policy: 100;w=60
+Ratelimit-Limit: 100
+Ratelimit-Remaining: 94
+Ratelimit-Reset: 57
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+Cf-Cache-Status: DYNAMIC
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=71071&min_rtt=70005&rtt_var=28385&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=901&delivery_rate=52331&cwnd=252&unsent_bytes=0&cid=544221af845583aa&ts=472&x=0"
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}

@@ -1,0 +1,44 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=reqres-free-v1
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Sundar",
+    "job": "Tester"
+}
+HTTP/1.1 201 Created
+Date: Tue, 29 Apr 2025 12:00:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+Server: cloudflare
+Cf-Ray: 937ea34f8de579da-HYD
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1745928015&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=JiV2A5rL38at2x%2BHpDylqN9q%2BUEIqRwaa6sFrulmbHc%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1745928015&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=JiV2A5rL38at2x%2BHpDylqN9q%2BUEIqRwaa6sFrulmbHc%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Ratelimit-Policy: 100;w=60
+Ratelimit-Limit: 100
+Ratelimit-Remaining: 98
+Ratelimit-Reset: 60
+Etag: W/"52-qN4JCQH1cTYlblb8emv7TCp6LXE"
+Via: 1.1 vegur
+Cf-Cache-Status: DYNAMIC
+server-timing: cfL4;desc="?proto=TCP&rtt=63186&min_rtt=57933&rtt_var=24243&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3109&recv_bytes=880&delivery_rate=47296&cwnd=252&unsent_bytes=0&cid=ba8ed6e2bb9c9daf&ts=663&x=0"
+
+{
+    "name": "Sundar",
+    "job": "Tester",
+    "id": "211",
+    "createdAt": "2025-04-29T12:00:15.548Z"
+}
